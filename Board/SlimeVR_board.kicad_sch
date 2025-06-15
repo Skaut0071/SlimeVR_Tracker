@@ -3854,7 +3854,7 @@
 	)
 	(text "IMU #1\n"
 		(exclude_from_sim no)
-		(at 107.442 104.14 0)
+		(at 111.506 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3895,12 +3895,6 @@
 		(uuid "033477e8-46fd-49c6-85ee-1cd93d8ff766")
 	)
 	(junction
-		(at 119.38 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0384e95a-1995-4d9a-aea9-c56c8d81bfd7")
-	)
-	(junction
 		(at 119.38 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,6 +3911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "168576aa-fc37-4bf4-80e7-2e9935bfbb16")
+	)
+	(junction
+		(at 180.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a67ac35-ee79-4030-aff4-d718dec33433")
 	)
 	(junction
 		(at 161.29 58.42)
@@ -3943,16 +3943,16 @@
 		(uuid "4662d6fb-c811-4583-af7e-b461157b3865")
 	)
 	(junction
-		(at 176.53 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47a63898-145e-4dc0-aac5-37edb826dcdf")
-	)
-	(junction
 		(at 101.6 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "525ea442-8971-40a8-b147-f0d1e96e5e14")
+	)
+	(junction
+		(at 133.35 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "576f09c9-032e-42f1-9fb5-1e65b881bacd")
 	)
 	(junction
 		(at 147.32 54.61)
@@ -3985,6 +3985,12 @@
 		(uuid "8919720b-a9cd-4515-a041-a9ee17f16faa")
 	)
 	(junction
+		(at 180.34 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9f07ea-fe45-4d60-bed6-7b9f73395a50")
+	)
+	(junction
 		(at 189.23 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4013,12 +4019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32c39d3-2a2f-4469-80c4-51863dafce0a")
-	)
-	(junction
-		(at 176.53 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5ef6eeb-c76d-4c61-a8c5-67aa5ab9a694")
 	)
 	(junction
 		(at 133.35 54.61)
@@ -4400,16 +4400,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 29.21) (xy 123.19 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371a0766-28ed-470e-b6f4-bbc2671ab5fd")
-	)
-	(wire
-		(pts
 			(xy 152.4 53.34) (xy 152.4 55.88)
 		)
 		(stroke
@@ -4440,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 176.53 53.34)
+			(xy 199.39 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4487,16 +4477,6 @@
 			(type default)
 		)
 		(uuid "45cc2e7a-02b9-45b8-8591-a729d9d89ecc")
-	)
-	(wire
-		(pts
-			(xy 180.34 49.53) (xy 176.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aed263f-5a5a-4e76-ad1b-6b1ed396224e")
 	)
 	(wire
 		(pts
@@ -4600,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 176.53 69.85)
+			(xy 163.83 69.85) (xy 180.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 29.21) (xy 119.38 29.21)
+			(xy 113.03 29.21) (xy 123.19 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4720,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 59.69) (xy 180.34 59.69)
+			(xy 191.77 59.69) (xy 184.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4810,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 53.34) (xy 176.53 69.85)
+			(xy 180.34 53.34) (xy 180.34 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 176.53 53.34)
+			(xy 180.34 49.53) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 119.38 29.21)
+			(xy 133.35 27.94) (xy 133.35 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5077,16 +5057,6 @@
 			(type default)
 		)
 		(uuid "b5690a4a-2290-4c57-9d98-c221f81d348e")
-	)
-	(wire
-		(pts
-			(xy 176.53 69.85) (xy 180.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a51bc3-3e93-4da9-8c68-dd11fa924edc")
 	)
 	(wire
 		(pts
@@ -5370,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 180.34 60.96)
+			(xy 184.15 59.69) (xy 184.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5736,6 +5706,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0201zd105mat2a/kondenzatory-mlcc-smd/kyocera-avx/"
+			(at 208.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa9dd1bd-feda-4673-a245-ddb74030801f")
 		)
@@ -5769,7 +5748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "47k"
 			(at 163.068 74.168 90)
 			(effects
 				(font
@@ -5798,6 +5777,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0805s8f4702t5e/rezistory-smd/royalohm/"
+			(at 161.29 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,8 +5825,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 157.48 62.738 0)
+		(property "Value" "1N4148WSQ-7-F"
+			(at 170.18 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,6 +5870,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/1n4148wsq-7-f/univerzalni-diody-smd/diodes-incorporated/"
 			(at 157.48 58.42 0)
 			(effects
 				(font
@@ -6053,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SMD_Pads"
 			(at 116.205 97.79 0)
 			(effects
 				(font
@@ -6061,7 +6058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Custom:Pin_1x04_SMD_P2.54mm"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -6128,7 +6125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP3099L"
+		(property "Value" "DMP3099L-7"
 			(at 165.1 54.6099 0)
 			(effects
 				(font
@@ -6159,6 +6156,15 @@
 			)
 		)
 		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 158.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/dmp3099l-7/tranzistory-s-kanalem-p-smd/diodes-incorporated/"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -6368,6 +6374,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0603b104k500ct/kondenzatory-mlcc-smd/walsin/"
+			(at 184.15 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63027914-1bd3-4c37-a94c-dcdf05c6393b")
 		)
@@ -6516,7 +6531,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 119.38 27.94 0)
+		(at 133.35 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6525,7 +6540,7 @@
 		(fields_autoplaced yes)
 		(uuid "477baa6c-93b9-43db-8bc2-b20484a9f16d")
 		(property "Reference" "#PWR04"
-			(at 119.38 31.75 0)
+			(at 133.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6549,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 22.86 0)
+			(at 133.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 27.94 0)
+			(at 133.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 27.94 0)
+			(at 133.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 27.94 0)
+			(at 133.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,6 +6642,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0603b104k500ct/kondenzatory-mlcc-smd/walsin/"
 			(at 124.46 132.08 0)
 			(effects
 				(font
@@ -6702,6 +6726,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/smd0805-1k-1%25/rezistory-smd/royalohm/0805s8f1001t5e/"
+			(at 142.24 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1ded4ec-5589-42f3-9886-fe7b19f09e54")
 		)
@@ -6762,6 +6795,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/smd0805-1k-1%25/rezistory-smd/royalohm/0805s8f1001t5e/"
+			(at 119.38 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,6 +6872,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0603b104k500ct/kondenzatory-mlcc-smd/walsin/"
 			(at 101.6 39.37 0)
 			(effects
 				(font
@@ -6936,8 +6987,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 104.14 36.83 90)
+		(property "Value" "FYLS-1206PGC"
+			(at 94.996 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,6 +7025,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/fyls-1206pgc/diody-led-smd-barevne/foryard/ - "
+			(at 109.22 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,6 +7101,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/smd0805-10k-1%25/rezistory-smd/royalohm/0805s8f1002t5e/"
+			(at 167.64 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,6 +7187,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0603b104k500ct/kondenzatory-mlcc-smd/walsin/"
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eadd074-e71b-4c05-b0a6-9e6323a05081")
 		)
@@ -7150,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "JTX-HX"
 			(at 115.824 113.03 0)
 			(effects
 				(font
@@ -7177,6 +7255,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/s4b-xh-a-1/signalove-konektory-raster-2-50mm/jst/s4b-xh-a-1-lf-sn/"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -7342,6 +7429,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.laskakit.cz/holtek-ht7833-3-3v-0-5a-stabilizator--sot-89/"
+			(at 196.85 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "07645a01-c89d-48e1-8479-f592b8950fad")
 		)
@@ -7484,6 +7580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0201zd105mat2a/kondenzatory-mlcc-smd/kyocera-avx/"
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d566b881-6676-4990-9895-8a2c8e98c096")
 		)
@@ -7566,7 +7671,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 180.34 60.96 0)
+		(at 184.15 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7574,7 +7679,7 @@
 		(dnp no)
 		(uuid "6c7ecc66-69a7-494b-8542-9d859843b33a")
 		(property "Reference" "#PWR09"
-			(at 180.34 67.31 0)
+			(at 184.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7688,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 184.404 62.992 0)
+			(at 188.214 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 60.96 0)
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 60.96 0)
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 180.34 60.96 0)
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "FYLS-1206UWC"
 			(at 148.336 110.744 0)
 			(effects
 				(font
@@ -7877,6 +7982,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/fyls-1206uwc/diody-led-smd-bile/foryard/"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -7947,6 +8061,15 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 189.23 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/esp32c3-wroom-02n4/moduly-iot-wifi-bluetooth/espressif/esp32-c3-wroom-02-n4/"
+			(at 189.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,7 +8228,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "JST-PH"
 			(at 165.608 43.688 0)
 			(effects
 				(font
@@ -8133,6 +8256,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" " https://www.tme.eu/cz/details/b2b-ph-sm4-tb/signalove-konektory-raster-2-00mm/jst/b2b-ph-sm4-tb-lf-sn/ "
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -8174,8 +8306,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 116.078 37.084 90)
+		(property "Value" "FYLS-1206URC"
+			(at 112.014 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,6 +8344,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/fyls-1206urc/diody-led-smd-barevne/foryard/"
+			(at 113.03 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,6 +8420,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/smd0805-10k-1%25/rezistory-smd/royalohm/0805s8f1002t5e/"
+			(at 165.1 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,6 +8828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/rca0805jk20tfea/rezistory-smd/vishay/"
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f227654-7ed0-480e-aa92-6714d7c2392b")
 		)
@@ -8741,6 +8900,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 133.858 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.laskakit.cz/toppower-tp4056-nabijecka-li-ion-clanku--1a--esop-8/"
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,6 +9132,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/smd0805-1k-1%25/rezistory-smd/royalohm/0805s8f1001t5e/"
+			(at 119.38 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88fea444-814c-4446-872e-42a043632638")
 		)
@@ -8989,7 +9166,7 @@
 		(dnp no)
 		(uuid "a6cd5724-5774-4c84-ad3e-c21c7c67b344")
 		(property "Reference" "SW1"
-			(at 167.894 65.786 90)
+			(at 155.702 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,8 +9174,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 166.116 68.072 90)
+		(property "Value" "LA215009"
+			(at 151.892 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -9026,6 +9203,15 @@
 		)
 		(property "Description" "Switch, single pole double throw"
 			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.laskakit.cz/posuvny-prepinac-0-3a-50vdc/"
+			(at 163.83 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,6 +9354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/wr08x5101ftl/rezistory-smd/walsin/"
+			(at 148.59 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "564e7d0c-af40-422a-a76d-27761fa69c8f")
 		)
@@ -9227,6 +9422,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0603b104k500ct/kondenzatory-mlcc-smd/walsin/"
 			(at 177.8 77.47 0)
 			(effects
 				(font
@@ -9360,6 +9564,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/wr08x5101ftl/rezistory-smd/walsin/"
+			(at 123.19 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,6 +9842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/wr08x5101ftl/rezistory-smd/walsin/"
+			(at 123.19 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80180f41-31d1-4d2a-b94d-b22f4089f8d2")
 		)
@@ -9727,7 +9949,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 163.322 81.026 90)
 			(effects
 				(font
@@ -9756,6 +9978,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0805s8f4702t5e/rezistory-smd/royalohm/"
+			(at 161.29 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,6 +10126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0201zd105mat2a/kondenzatory-mlcc-smd/kyocera-avx/"
+			(at 203.2 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "711e9ff7-1133-49ce-9822-9b6b0fc8f5cc")
 		)
@@ -9954,6 +10194,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/0201zd105mat2a/kondenzatory-mlcc-smd/kyocera-avx/"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -10161,6 +10410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "https://www.tme.eu/cz/details/0201zd105mat2a/kondenzatory-mlcc-smd/kyocera-avx/"
+			(at 90.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3e475b4-9601-4173-a89f-6405cbbf7df4")
 		)
@@ -10287,6 +10545,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.tme.eu/cz/details/usb4105-gf-a/konektory-usb-a-ieee1394/gct/"
 			(at 104.14 74.93 0)
 			(effects
 				(font
