@@ -18,7 +18,7 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ## Bill of Materials (BOM)
 <!-- List součástek: -->
-*Component list will be added here soon*
+*Check in PDFs folder for "ibom.html"*
 
 ## Contributing
 Feel free to submit issues, suggestions, or improvements via GitHub issues or pull requests.
