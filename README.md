@@ -5,8 +5,8 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ## Project Information
 - **KiCad Version:** 9.0
-- **PCB Version:** 0.3
-- **Schematic Version:** 0.5
+- **PCB Version:** 1.1C (older *bigger* board files are saved if you want them *Version 0.7*)
+- **Schematic Version:** 0.7
 - **Project Type:** DIY/Hobby
 
 ## Disclaimer
