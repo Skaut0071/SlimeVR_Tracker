@@ -6,6 +6,11 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 ## Project Information
 - **KiCad Version:** 9.0
 - **PCB Version:** 2.5W + 2.5WE (older *bigger* board files are saved if you want them *Version 0.7* and *Version 0.9*)
+
+  > *W:* = Wirelless
+
+  > *E:* = Extencion
+
 - **Schematic Version:** 1.1
 - **Project Type:** DIY/Hobby
 - **Manufacture:** JLCPCB
