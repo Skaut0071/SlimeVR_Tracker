@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|72350000|25455000|7c0eae5b-42ca-488e-8113-8e75fee27343|323e748b-ee5e-4843-a1e0-ec1313212904",
+          ""
+        ],
+        [
+          "hole_clearance|72350000|25455000|7c0eae5b-42ca-488e-8113-8e75fee27343|42680177-cdc3-486c-a8c6-83cf7ddb9d65",
+          ""
+        ],
+        [
+          "hole_clearance|78450000|25455000|a1be4b75-fc66-4f00-9bee-d0baa24f194a|80a1432f-538d-4aef-a4c8-d8934c43183b",
+          ""
+        ],
+        [
+          "hole_clearance|78450000|25455000|a1be4b75-fc66-4f00-9bee-d0baa24f194a|81e6532c-a80a-44cb-a188-792a7acbf570",
+          ""
+        ],
+        [
+          "isolated_copper|43579635|23870185|8ea5dc5f-6cac-4df2-be6f-eda464044fd0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|57214287|55984660|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|58350919|48451540|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|74567194|24574185|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|77623709|24561544|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|83210724|25412411|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|83267859|30061940|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|83267859|32061940|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|86205703|40780880|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|45580000|43875000|ce9acb22-9554-48a5-a986-31ff3a08ab19|e2a38b5c-cf5c-42fe-86f6-4299e75c5c62",
+          ""
+        ],
+        [
+          "unconnected_items|49481000|40069000|ba22a8f9-987c-4cf1-98e5-4b6977c7425d|29805023-d15d-43b6-ae73-448ad7bbc456",
+          ""
+        ],
+        [
+          "unconnected_items|53400000|26350000|2f8c32f7-573e-4198-b31f-c4f931a1357a|335e9beb-2d39-4c00-918d-22bdfd4a5f6f",
+          ""
+        ],
+        [
+          "unconnected_items|55038540|45247264|8ea5dc5f-6cac-4df2-be6f-eda464044fd0|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,11 +192,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.18,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -135,8 +204,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -224,11 +293,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.25
+          "diameter": 0.55,
+          "drill": 0.3
         },
         {
-          "diameter": 0.8,
+          "diameter": 0.85,
           "drill": 0.4
         }
       ],
@@ -516,7 +585,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": "../SlimeVR_board_Compact.wrl"
+      "vrml": "SlimeVR_board.wrl"
     },
     "page_layout_descr_file": ""
   },
