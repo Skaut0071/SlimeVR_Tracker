@@ -17,6 +17,7 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ## Disclaimer
 ⚠️ **Functionality is not guaranteed.** This is an experimental project and may contain errors or issues. Use at your own risk.
+- Also There are a few grafical and speling mistakes so be awere of it. (Labels like R1,R2 or in IMU placement area)
 
 ## Design Files
 - PCB layout and schematic files are included in this repository
