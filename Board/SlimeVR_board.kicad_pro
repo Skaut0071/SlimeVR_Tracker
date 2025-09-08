@@ -112,19 +112,7 @@
           ""
         ],
         [
-          "unconnected_items|45580000|43875000|ce9acb22-9554-48a5-a986-31ff3a08ab19|e2a38b5c-cf5c-42fe-86f6-4299e75c5c62",
-          ""
-        ],
-        [
-          "unconnected_items|49481000|40069000|ba22a8f9-987c-4cf1-98e5-4b6977c7425d|29805023-d15d-43b6-ae73-448ad7bbc456",
-          ""
-        ],
-        [
           "unconnected_items|53400000|26350000|2f8c32f7-573e-4198-b31f-c4f931a1357a|335e9beb-2d39-4c00-918d-22bdfd4a5f6f",
-          ""
-        ],
-        [
-          "unconnected_items|55038540|45247264|8ea5dc5f-6cac-4df2-be6f-eda464044fd0|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7",
           ""
         ]
       ],
@@ -208,7 +196,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -583,7 +571,7 @@
       "plot": "greb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SlimeVR_board.step",
       "svg": "",
       "vrml": "SlimeVR_board.wrl"
     },
