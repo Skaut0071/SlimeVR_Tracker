@@ -25360,7 +25360,7 @@
 		)
 	)
 	(gr_text "-\n\n+"
-		(at 95.01 45.28 90)
+		(at 91 44 270)
 		(layer "F.SilkS")
 		(uuid "9a80a375-1d35-40fd-a380-b573481cabdc")
 		(effects
@@ -25422,7 +25422,7 @@
 		)
 	)
 	(gr_text "-\n\n+"
-		(at 95.06 43.88 90)
+		(at 91 45.5 270)
 		(layer "B.SilkS")
 		(uuid "3adc4579-45e7-4fb2-8549-ff71f99e2f2e")
 		(effects
