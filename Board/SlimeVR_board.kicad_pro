@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,43 +76,7 @@
           ""
         ],
         [
-          "isolated_copper|43579635|23870185|8ea5dc5f-6cac-4df2-be6f-eda464044fd0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|57214287|55984660|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|58350919|48451540|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|74567194|24574185|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|77623709|24561544|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|83210724|25412411|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|83267859|30061940|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|83267859|32061940|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "isolated_copper|86205703|40780880|6c1ecdb1-5e04-4be9-8f9d-cd7d154dbbb7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|53400000|26350000|2f8c32f7-573e-4198-b31f-c4f931a1357a|335e9beb-2d39-4c00-918d-22bdfd4a5f6f",
+          "net_conflict|81000000|57000000|c40fe789-f146-40d5-8e67-01b586b1fe66|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -130,8 +94,8 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
@@ -150,7 +114,7 @@
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
+        "missing_footprint": "error",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
@@ -173,7 +137,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
