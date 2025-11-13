@@ -17,7 +17,8 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ## Disclaimer
 ⚠️ **Functionality is not guaranteed.** This is an experimental project and may contain errors or issues. Use at your own risk.
-- Also There are a few grafical and speling mistakes so be awere of it. 
+- Also There are a few grafical and speling mistakes so be awere of it.
+- The images are for reference only until new version arrives, I will make new onec after
 
 ## Design Files
 - PCB layout and schematic files are included in this repository
