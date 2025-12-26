@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -73,10 +73,6 @@
         ],
         [
           "hole_clearance|78450000|25455000|a1be4b75-fc66-4f00-9bee-d0baa24f194a|81e6532c-a80a-44cb-a188-792a7acbf570",
-          ""
-        ],
-        [
-          "net_conflict|81000000|57000000|c40fe789-f146-40d5-8e67-01b586b1fe66|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -477,7 +473,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",

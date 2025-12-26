@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
-%TF.CreationDate,2025-09-13T20:57:44+02:00*%
-%TF.ProjectId,SlimeVR_board,536c696d-6556-4525-9f62-6f6172642e6b,2.5W*%
+%TF.CreationDate,2025-12-26T22:53:19+01:00*%
+%TF.ProjectId,SlimeVR_board,536c696d-6556-4525-9f62-6f6172642e6b,3W*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2) date 2025-09-13 20:57:44*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-12-26 22:53:19*
 %MOMM*%
 %LPD*%
 G01*

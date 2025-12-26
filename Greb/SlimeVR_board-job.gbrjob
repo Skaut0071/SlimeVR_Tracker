@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-09-13T20:57:44+02:00"
+    "CreationDate": "2025-12-26T22:53:19+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SlimeVR_board",
       "GUID": "536c696d-6556-4525-9f62-6f6172642e6b",
-      "Revision": "2.5W"
+      "Revision": "3W"
     },
     "Size": {
       "X": 61.05,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.3,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
     }
   ],
   "FilesAttributes": [
