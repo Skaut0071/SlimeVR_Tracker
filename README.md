@@ -23,7 +23,7 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ### Hardware Specifications
 - **MCU:** ESP32C3 WROOM 02
-- **Supported IMU:** Any with same pin out as BMI160 module *reference at end*
+- **Supported IMU:** Any with same pin out as BMI160 module (*reference at end*)
 - **Battery Management:** Integrated TP4056 charging circuit
 - **Features:** Battery monitoring (Firmware), Power switch, Status LEDs
 
