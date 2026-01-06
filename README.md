@@ -4,17 +4,24 @@
 This is a DIY project based on the official SlimeVR documentation. The design is created for educational and hobbyist purposes.
 
 ### Visuals
-**Front side:**
-![Front PCB](./3D/Front.png)
+<h2 align="center"><b>Front side:</b></h2>
 
-**Back side:**
-![Back PCB](./3D/Back.png)
+<p align="center">
+  <img src="./3D/Front.png" alt="Front PCB">
+</p>
+
+<h2 align="center"><b>Back side:</b></h2>
+
+<p align="center">
+  <img src="./3D/Back.png" alt="Back PCB">
+</p>
 
 ## Project Information
 - **KiCad Version:** 9.0
 - **PCB Version:** 3W + 2.6WE (older *bigger* board files are saved if you want them *Version 0.7*, *Version 0.9* and *Version 2.5W*)
 
   > *W:* = Wireless
+  
   > *E:* = Extension
 
 - **Schematic Version:** 2.0
