@@ -41,7 +41,7 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 
 ## Bill of Materials (BOM)
 Detailed interactive list of components:
-👉 **[Open Interactive BOM (ibom.html)](https://skaut0071.github.io/SlimeVR_Tracker/PDFs/ibom)** *(Download and open in your browser)*
+👉 **[Open Interactive BOM (ibom.html)](https://skaut0071.github.io/SlimeVR_Tracker/PDFs/ibom)**
 
 ## Contributing
 Feel free to submit issues, suggestions, or improvements via GitHub issues or pull requests.
