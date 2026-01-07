@@ -3738,6 +3738,7 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
   if (bomSortFunction) {
     bomtable = bomtable.sort(bomSortFunction);
   }
+  var rownum = 0;
   for (var i in bomtable) {
     var bomentry = bomtable[i];
     if (filter && !entryMatches(bomentry)) {
@@ -3748,11 +3749,11 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
       // Skip rows consisting only of hidden references
       continue;
     }
+    rownum++;
     var references = null;
     var netname = null;
     var tr = document.createElement("TR");
     var td = document.createElement("TD");
-    var rownum = +i + 1;
     tr.id = "bomrow" + rownum;
     td.textContent = rownum;
     tr.appendChild(td);
