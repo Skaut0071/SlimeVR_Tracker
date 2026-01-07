@@ -3096,6 +3096,8 @@ var markedFootprints = new Set();
 var highlightedFootprints = [];
 var highlightedNet = null;
 var lastClicked;
+// References that should be omitted from the BOM table while remaining on the canvas
+const hiddenBomReferences = new Set(["J3", "J4"]);
 
 function dbg(html) {
   dbgdiv.innerHTML = html;
@@ -3739,6 +3741,11 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
   for (var i in bomtable) {
     var bomentry = bomtable[i];
     if (filter && !entryMatches(bomentry)) {
+      continue;
+    }
+    if (settings.bommode !== "netlist" && Array.isArray(bomentry) &&
+      bomentry.every(ref => hiddenBomReferences.has(ref[0]))) {
+      // Skip rows consisting only of hidden references
       continue;
     }
     var references = null;
