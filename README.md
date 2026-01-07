@@ -16,6 +16,12 @@ This is a DIY project based on the official SlimeVR documentation. The design is
   <img src="./3D/Back.png" alt="Back PCB">
 </p>
 
+<h2 align="center"><b>Case:</b></h2>
+
+<p align="center">
+  <img src="./Images/InCaseClosed.jpg" alt="Case">
+</p>
+
 ## Project Information
 - **KiCad Version:** 9.0
 - **PCB Version:** 3W + 2.6WE (older *bigger* board files are saved if you want them *Version 0.7*, *Version 0.9* and *Version 2.5W*)
