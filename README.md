@@ -19,7 +19,7 @@ This is a DIY project based on the official SlimeVR documentation. The design is
 <h2 align="center"><b>Case:</b></h2>
 
 <p align="center">
-  <img src="./Images/InCaseClosed.jpg" alt="Case" width="650" height="540">
+  <img src="./Images/InCaseClosed.jpg" alt="Case" width="650" height="320">
 </p>
 
 ## Project Information
